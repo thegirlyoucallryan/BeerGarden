@@ -27,6 +27,8 @@ ul{
     list-style-type: none;
     background-color: black !important;
     box-shadow: none;
+    width: 5rem;
+    color: rgb(184, 136, 128)
     
 
 }

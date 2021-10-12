@@ -9,7 +9,7 @@ const Footer = () => {
       <div className={styles.footer}>
           
           <ul>
-              <li className={styles.li}>Search</li>
+              <li className={styles.li}>Home</li>
               <li className={styles.li}>About</li>
               <li className={styles.li}>Contact Us</li>
               
