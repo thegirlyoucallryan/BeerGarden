@@ -68,7 +68,7 @@ const Search = () => {
             <form className={styles.form} onSubmit={submitHandler}>
                
                 <div className={styles.search}>
-                <input placeholder="Search for a Beer" id='searchbar' type='text' value={search}  onChange={getSearchQuery}></input>
+                <input placeholder="Search for a Craft Beer" id='searchbar' type='text' value={search}  onChange={getSearchQuery}></input>
                
                     </div>
 

@@ -38,7 +38,7 @@ body{
 }
 .header{
     text-align: right  !important;
-    color: rgb(179, 135, 135);
+    color: rgb(163, 125, 107);
     font-size: 3.2rem;
-    text-shadow: 0 8px 3px black;
+    text-shadow: -1px -1px 7px rgb(133, 21, 21), -1px -1px 12px rgb(65, 37, 5);
 }
