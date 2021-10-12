@@ -10,6 +10,9 @@ h1{
     flex-grow: .4;
     background-color: inherit;
     font-family: IM  Fell Great Primer sc;
+    text-transform: uppercase;
+    font-weight: 100;
+    
 }
 
 h1:hover{
@@ -35,7 +38,7 @@ body{
 }
 .header{
     text-align: right  !important;
-    color: rgb(250, 249, 248);
-    font-size: 4rem;
+    color: rgb(179, 135, 135);
+    font-size: 3.2rem;
     text-shadow: 0 8px 3px black;
 }
