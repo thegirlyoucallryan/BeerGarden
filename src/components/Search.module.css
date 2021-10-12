@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+:root {
+    --darkestBrown:#402814;
+    --medBrown: #e2d8cf;
+    --lightBrown: #ecd9c3;
+    --beige: #e9dfd7;
+    --black: #232323;
+    --red: rgb(77, 9, 9);
+}
+
+.formBox{
+    display: inline-block;
+    align-self: center;
+    justify-content: space-around;
+    /* background-color: rgba(58, 52, 52, 0.377); */
+    border-radius: 12px;
+    width: 100%;
+    margin: 2rem;
+
+
+}
+
+.form{
+    /* background-color: rgb(246, 246, 245); */
+    padding: 1rem;
+    margin: 3rem;
+    border-radius: 1px;
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    
+    align-items: center;
+    height: 6rem;
+    margin: 2rem;
+    /* border: 2px solid black; */
+   
+    
+}
+
+label{
+    background-color: transparent;
+    color: var(--lightBrown);
+    font-size: 2rem;
+    text-shadow:  1px 1px  5px var(--red);
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+input{
+    height: 1.5rem;
+    border-radius: 3rem;
+    box-shadow: 0 2px 13px  2px rgb(187, 155, 97);
+    color: white;
+    width: 200%;
+    padding: 10px;
+    background-color: var(--black);
+}
+
+
+input:placeholder{
+    
+    letter-spacing: 2px;
+}
+
+input:hover{
+    transform: scaleX(1.1);
+    transition: all 1s;
+}
+
+
+
+.search{
+    background-color: transparent;
+}
+
+button{
+    border-radius: 2rem;
+    width: 7rem;
+    height: 3rem;
+    color: rgb(226, 224, 224);
+    box-shadow: 0 2px 12px  2px rgb(133, 57, 35);
+    background-color: var(--black);
+    margin:18rem
+
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+    box-shadow: 0 2px 12px  2px rgb(199, 109, 84);
+}
