@@ -22,7 +22,7 @@ h1:hover{
    
 }
 body{
-    background-image: linear-gradient(to left bottom, rgba(90, 77, 55, 0.561), rgba(55, 44, 112, 0.109)), url('./components/images/beer-barrels-background.jpg');
+    background-image: linear-gradient(to left bottom, rgba(65, 53, 37, 0.486), rgba(5, 3, 15, 0.548)), url('./components/images/beer-barrels-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     flex-grow: 1;
