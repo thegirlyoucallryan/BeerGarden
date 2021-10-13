@@ -4,7 +4,8 @@
 
 
 h1{
-    color: rgb(134, 99, 99);
+    /* color: rgb(134, 99, 99); */
+    color:rgb(219, 97, 67);
     background-color: inherit;
     letter-spacing: 2px;
     flex-grow: .4;
@@ -21,7 +22,7 @@ h1:hover{
    
 }
 body{
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.712)), url('./components/images/beer-barrels-background.jpg');
+    background-image: linear-gradient(to left bottom, rgba(90, 77, 55, 0.561), rgba(55, 44, 112, 0.109)), url('./components/images/beer-barrels-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     flex-grow: 1;
@@ -37,8 +38,51 @@ body{
     
 }
 .header{
-    text-align: right  !important;
-    color: rgb(163, 125, 107);
+
+    font-family: Montserrat !important;
+    font-weight: 100;
+    color: rgb(226, 209, 189);
+    font-size: 4.8rem;
+    text-shadow: -1px -1px 7px rgb(173, 94, 29), -1px -1px 12px rgb(15, 11, 7);
+    text-transform: uppercase;
+    margin-bottom: -2.6rem;
+    margin-left: -.3rem;
+
+    
+
+}
+
+.header2{
+    
+    font-family: Montserrat;
+    color: rgb(226, 209, 189);
     font-size: 3.2rem;
-    text-shadow: -1px -1px 7px rgb(133, 21, 21), -1px -1px 12px rgb(65, 37, 5);
+    text-shadow: -1px -1px 7px rgb(173, 94, 29), -1px -1px 12px rgb(15, 11, 7);
+   
+    margin-left: -.1rem;
+
+}
+
+.header3{
+    font-family: Montserrat;
+    color:rgb(219, 97, 67);
+    text-shadow: -1px -1px 7px rgb(173, 94, 29), -1px -1px 12px rgb(15, 11, 7);
+    margin-left: 20.9rem;
+    margin-top: -5.73rem;
+    font-size: 3.3rem;
+    font-weight: 500;
+    font-style: italic;
+    
+}
+
+.headerBox{
+   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: left !important;
+    position: absolute;
+    top: 2rem;
+    left: 80rem;
+  
 }

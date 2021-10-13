@@ -11,7 +11,11 @@ const App = () => {
   
     return(
         <div>
-            <h1 className='header'> Beer Garden  | Brew Some Beer</h1>
+            <div className='headerBox'>
+            <h2 className='header'> Beer Garden</h2>
+            <h1 className="header2"> Brew Some </h1>
+            <h1 className="header2 header3" >Beer</h1>
+            </div>
             <Search/>
         
            
